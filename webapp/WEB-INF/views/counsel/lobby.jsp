@@ -8,18 +8,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" href="${pageContext.request.contextPath}/assets/img/favicon.png">
-<!--  
+ 
 <link href="${pageContext.request.contextPath}/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
--->
-<link
-	href="${pageContext.request.contextPath}/assets/counsel-bootstrap/css/bootstrap.min.css"
-	rel="stylesheet" media="screen">
-<link
-	href="${pageContext.request.contextPath}/assets/counsel-bootstrap/css/landing-page.css"
-	rel="stylesheet" media="screen">
-<link
-	href="${pageContext.request.contextPath}/assets/counsel-bootstrap/font-awesome/css/font-awesome.min.css"
-	rel="stylesheet" media="screen"> 
+
+
 <style>
 .content { height:100%; }
 </style>

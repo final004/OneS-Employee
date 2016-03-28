@@ -8,19 +8,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon"
 	href="${pageContext.request.contextPath}/assets/img/favicon.png">
-<!-- 
+
 <link
 	href="${pageContext.request.contextPath}/assets/bootstrap/css/bootstrap.min.css"
 	rel="stylesheet" media="screen">
- -->
 <link
-	href="${pageContext.request.contextPath}/assets/counsel-bootstrap/css/bootstrap.min.css"
+	href="${pageContext.request.contextPath}/assets/bootstrap/css/landing-page.css"
 	rel="stylesheet" media="screen">
 <link
-	href="${pageContext.request.contextPath}/assets/counsel-bootstrap/css/landing-page.css"
-	rel="stylesheet" media="screen">
-<link
-	href="${pageContext.request.contextPath}/assets/counsel-bootstrap/font-awesome/css/font-awesome.min.css"
+	href="${pageContext.request.contextPath}/assets/bootstrap/font-awesome/css/font-awesome.min.css"
 	rel="stylesheet" media="screen"> 
  
 <title>OneS</title>
@@ -43,16 +39,16 @@
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
                             <li>
-                                <a href="#" class="btn btn-default btn-lg"><img alt="" src="${pageContext.request.contextPath}/assets/counsel-bootstrap/img/hanabank.png"> <span class="network-name"></span></a>
+                                <a href="#" class="btn btn-default btn-lg"><img alt="" src="${pageContext.request.contextPath}/assets/img/counsel/hanabank.png"> <span class="network-name"></span></a>
                             </li>
                             <li>
-                                <a href="#" class="btn btn-default btn-lg"><img alt="" src="${pageContext.request.contextPath}/assets/counsel-bootstrap/img/hanacard.png"> <span class="network-name"></span></a>
+                                <a href="#" class="btn btn-default btn-lg"><img alt="" src="${pageContext.request.contextPath}/assets/img/counsel/hanacard.png"> <span class="network-name"></span></a>
                             </li>
                             <li>
-                                <a href="#" class="btn btn-default btn-lg"><img alt="" src="${pageContext.request.contextPath}/assets/counsel-bootstrap/img/hanastock.png"> <span class="network-name"></span></a>
+                                <a href="#" class="btn btn-default btn-lg"><img alt="" src="${pageContext.request.contextPath}/assets/img/counsel/hanastock.png"> <span class="network-name"></span></a>
                             </li>
                             <li>
-                            	<a href="#" class="btn btn-default btn-lg"><img alt="" src="${pageContext.request.contextPath}/assets/counsel-bootstrap/img/hanacapital.png"> <span class="network-name"></span></a>
+                            	<a href="#" class="btn btn-default btn-lg"><img alt="" src="${pageContext.request.contextPath}/assets/img/counsel/hanacapital.png"> <span class="network-name"></span></a>
                             </li>
                         </ul>
                     </div>
@@ -72,12 +68,10 @@
                     <p class="lead">별도의 프로그램 설치없이 익명으로 이용할 수 있는 서비스입니다.</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="${pageContext.request.contextPath}/assets/counsel-bootstrap/img/accessibleservice.jpg" alt="">
+                    <img class="img-responsive" src="${pageContext.request.contextPath}/assets/img/counsel/accessibleservice.jpg" alt="">
                 </div>
             </div>
-
         </div>
-        <!-- /.container -->
     </div>
 		
 		<div class="content-section-b">
@@ -90,11 +84,10 @@
                     <p class="lead">웹과 모바일로 언제 어디서나 채팅이나 화상전화로 편리하게 이용할 수 있는 서비스입니다.</p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="${pageContext.request.contextPath}/assets/counsel-bootstrap/img/convenientservice.jpg" alt="">
+                    <img class="img-responsive" src="${pageContext.request.contextPath}/assets/img/counsel/convenientservice.jpg" alt="">
                 </div>
             </div>
         </div>
-        <!-- /.container -->
     </div>
 			
 		<div class="content-section-c">
@@ -107,11 +100,10 @@
                     <p class="lead">고객의 정보를 저장하지 않는 P2P기반의 안전한 서비스를 제공합니다.</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="${pageContext.request.contextPath}/assets/counsel-bootstrap/img/securityservice.png" alt="">
+                    <img class="img-responsive" src="${pageContext.request.contextPath}/assets/img/counsel/securityservice.png" alt="">
                 </div>
             </div>
         </div>
-        <!-- /.container -->
     </div>
 		
 
@@ -119,11 +111,12 @@
 			<c:import url="/WEB-INF/views/includes/counsel-footer.jsp" />
 		</div>
 </div>
+
 	<!-- jQuery -->
-    <script src="${pageContext.request.contextPath}/assets/counsel-bootstrap/js/jquery.js"></script>
+    <script src="${pageContext.request.contextPath}/assets/bootstrap/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="${pageContext.request.contextPath}/assets/counsel-bootstrap/js/bootstrap.min.js"></script>
+    <script src="${pageContext.request.contextPath}/assets/bootstrap/js/bootstrap.min.js"></script>
 
 </body>
 </html>

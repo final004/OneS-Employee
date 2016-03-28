@@ -8,31 +8,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon"
 	href="${pageContext.request.contextPath}/assets/img/favicon.png">
-<!-- 
 <link
 	href="${pageContext.request.contextPath}/assets/bootstrap/css/bootstrap.min.css"
-	rel="stylesheet">
- -->
-<link
-	href="${pageContext.request.contextPath}/assets/counsel-bootstrap/css/bootstrap.min.css"
 	rel="stylesheet" media="screen">
 <link
-	href="${pageContext.request.contextPath}/assets/counsel-bootstrap/css/landing-page.css"
+	href="${pageContext.request.contextPath}/assets/bootstrap/css/landing-page.css"
 	rel="stylesheet" media="screen">
 <link
-	href="${pageContext.request.contextPath}/assets/counsel-bootstrap/font-awesome/css/font-awesome.min.css"
+	href="${pageContext.request.contextPath}/assets/bootstrap/font-awesome/css/font-awesome.min.css"
 	rel="stylesheet" media="screen">
-<link href="${pageContext.request.contextPath}/assets/css/style.css"
+<link href="${pageContext.request.contextPath}/assets/css/loginformstyle.css"
 	rel="stylesheet" media="screen">
 
 <title>OneS</title>
-
-<script type="text/javascript">
- function loginCheck(){
-         
- 
- };		
-</script>
 
 </head>
 <body>
@@ -51,7 +39,7 @@
 							type='text'> 
 						<input id="password" name="password"
 							placeholder='password' type='password'>
-						<button class='animated infinite pulse' onclick="loginCheck()">Login</button>
+						<button class='animated infinite pulse'>Login</button>
 					</form>
 				</div>
 			</div>
