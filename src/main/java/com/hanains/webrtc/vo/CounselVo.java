@@ -3,15 +3,17 @@ package com.hanains.webrtc.vo;
 public class CounselVo {
 	private String employeeId;
 	private String password;
+	private String name;
 	
 	public CounselVo(){
 		
 	}
 	
-	public CounselVo(String employeeId, String password) {
+	public CounselVo(String employeeId, String password, String name) {
 		super();
 		this.employeeId = employeeId;
 		this.password = password;
+		this.name = name;
 	}
 	
 	public String getEmployeeId() {
@@ -27,8 +29,16 @@ public class CounselVo {
 		this.password = password;
 	}
 	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
 	@Override
 	public String toString() {
-		return "CounselVo [employeeId=" + employeeId + ", password=" + password + "]";
+		return "CounselVo [employeeId=" + employeeId + ", password=" + password + ", name=" + name + "]";
 	}
 }

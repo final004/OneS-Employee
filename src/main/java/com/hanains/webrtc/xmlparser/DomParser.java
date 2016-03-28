@@ -52,7 +52,8 @@ public class DomParser {
    Element element = (Element) nodeList.item(i);
    String employeeId = this.getTagValue("employeeId",element);
    String password = this.getTagValue("password", element);
-   listOfData.add(new CounselVo(employeeId, password));
+   String name = this.getTagValue("name", element);
+   listOfData.add(new CounselVo(employeeId, password, name));
   }
   return listOfData;
  }

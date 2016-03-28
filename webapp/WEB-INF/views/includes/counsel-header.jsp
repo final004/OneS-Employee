@@ -15,7 +15,7 @@
 				<li><a href="${pageContext.request.contextPath}/counsel/login">로그인</a></li>
 		</c:when>
 			<c:otherwise>
-				<li>${authUser.employeeId}님이 로그인하였습니다.</li>
+				<li>${authUser.name}님이 로그인하였습니다.</li>
 				<li><a href="${pageContext.request.contextPath}/counsel/#about">OneS란?</a></li>
 				<li><a href="${pageContext.request.contextPath}/counsel/lobby">대기방</a></li>
 				<li><a href="${pageContext.request.contextPath}/counsel/logout">로그아웃</a></li>

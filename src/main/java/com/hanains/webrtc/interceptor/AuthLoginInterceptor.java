@@ -44,6 +44,7 @@ public class AuthLoginInterceptor extends HandlerInterceptorAdapter {
 			if((employeeId.equals(result.get(i).getEmployeeId())) && ((password.equals(result.get(i).getPassword())))){
 				vo.setEmployeeId(result.get(i).getEmployeeId());
 				vo.setPassword(result.get(i).getPassword());
+				vo.setName(result.get(i).getName());
 				CounselVo authUser = counselController.authLogin(vo);
 				
 				if(authUser == null){
@@ -54,6 +55,7 @@ public class AuthLoginInterceptor extends HandlerInterceptorAdapter {
 				//login Ã³¸®
 				HttpSession session = request.getSession(true);
 				session.setAttribute("authUser", authUser);
+				System.out.println(authUser);
 				response.sendRedirect(request.getContextPath()+"/counsel/");
 				return false;
 			}
